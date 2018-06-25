@@ -93,6 +93,7 @@ class TestIdeasHome extends Component {
           <h1 className="randomheading">
             <TestIdea idea={this.state.randomIdea} addSavedIdea={this.addSavedIdea} nextIdea={this.updateRandomIdea} />
           </h1>
+          <h3>Save to add to the checklist, or Skip to get the next idea. Click the Printer icon to see a printable test checklist.</h3>
         </div>
         <h1><List savedIdeas={this.state.savedIdeas} removeListIdea={this.removeSavedIdea} printList={this.printList} resetIdea={this.resetIdea} /></h1>
         </div>
