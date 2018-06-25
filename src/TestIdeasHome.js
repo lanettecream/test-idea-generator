@@ -17,7 +17,7 @@ class TestIdeasHome extends Component {
       var passedState = this.props.location.state;
       var savedIdeas = [];
 
-      if (passedState.savedIdeas != null) {
+      if (passedState != null && passedState.savedIdeas != null) {
           savedIdeas = passedState.savedIdeas;
       }
 

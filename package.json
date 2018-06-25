@@ -5,6 +5,7 @@
   "private": false,
   "dependencies": {
     "gh-pages": "^1.2.0",
+    "node": "^10.5.0",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-router-dom": "^4.3.1",
