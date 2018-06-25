@@ -10,8 +10,8 @@ const Paths = () => (
     <div>
 
       <Switch>
-        <Route exact path={`/`} component={TestIdeasHome} />
-        <Route path={`/checklist`} component={Checklist} />
+        <Route exact path={`${process.env.PUBLIC_URL}/`} component={TestIdeasHome} />
+        <Route path={`${process.env.PUBLIC_URL}/testideashome/checklist`} component={Checklist} />
         <Route render={() => <h1>Page not found</h1>} />
       </Switch>
     </div>
