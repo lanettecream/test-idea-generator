@@ -1,0 +1,91 @@
+.Test-container {
+    padding-right: 25px;
+    list-style-image:  url('./checkbox.svg');
+    text-align: center;
+    align-items: center;
+    position:relative;
+  }
+  
+  .Test-logo {
+    padding-top: 5px;
+    height: auto; 
+    width: auto; 
+    max-width: 84px; 
+    max-height: 115px;
+    padding-right: 25px;
+      
+  }
+  
+  .App-tagline {
+    font-family: 'Maven Pro', sans-serif;
+    color: #1B215E;
+    font-weight: 400;
+    font-size: 1.2em;
+    padding-right: 25px;
+    }
+  
+  .Test-header {
+    background-color: white;
+    height: 160px;
+    padding: 20px;
+    color: white;
+  }
+  
+.checklist {
+    padding-right: 25px;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.4em;
+    font-weight: 300;
+    text-align: left;
+    list-style-position: inside;
+    margin: 10px;
+    list-style-image:  url('./checkbox.svg');
+}
+
+.clIdeaSection {
+    align-content: left;
+}
+
+.idealist {
+    padding-right: 25px;
+    padding-bottom: 10px;
+    font-family: 'Lato', sans-serif;
+    text-align: left;
+    list-style-position: inside;
+    padding: 20px 10px 20px 10px;
+    list-style-image:  url('./checkbox.svg');
+    margin: 25px;
+} 
+
+.Idea {
+    padding-right: 25px;
+    padding-bottom: 50px;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    list-style-position: inside;
+    list-style-image:  url('./checkbox.svg');
+    position:relative;
+}
+
+.IdeaSection {
+    align-content: center;
+
+}
+
+.li {
+    line-height: 1.5;
+}
+
+.savedhead {
+    font-family: 'Amaranth', sans-serif;
+    font-weight: 200;
+    font-size: 1.2em;
+    mask-size: 20px, auto, contain;
+    text-align: center;
+
+}
+
+a:link { color: #7846BD; text-decoration: none; } 
+a:visited	{ color: #1B215E; text-decoration: none; } 
+a:active	{ color: #7846BD; text-decoration: none; } 
+a:hover	{ color: #1B215E; text-decoration: none; } 
