@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './TestIdea.css';
-import App from '../App.js';
 
 import PropTypes from 'prop-types';
 

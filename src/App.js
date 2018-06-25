@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import TestIdeasHome from './TestIdeasHome.js';
-import { BrowserRouter as Router, Link, Switch, Redirect, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Checklist from './Checklist.js';
 
 
