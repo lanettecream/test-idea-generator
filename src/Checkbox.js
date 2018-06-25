@@ -1,8 +1,4 @@
 import React, { Component } from 'react';
-//import TestIdea from './TestIdea/TestIdea.js';
-//import App from './App.js';
-// import { Link } from 'react-router-dom';
-//import List from './List.js';
 import PropTypes from 'prop-types';
 
 const items = [

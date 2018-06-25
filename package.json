@@ -2,7 +2,7 @@
   "name": "test-idea-generator",
   "version": "0.1.0",
   "homepage": "http://lanettecream.github.io/test-idea-generator",
-  "private":false,
+  "private": false,
   "dependencies": {
     "gh-pages": "^1.2.0",
     "react": "^16.4.1",
@@ -17,5 +17,18 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
-    }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lanettecream/test-idea-generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lanettecream/test-idea-generator/issues"
+  }
 }

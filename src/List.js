@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
 import './List.css';
 import { Link } from 'react-router-dom';
 import print from './print.svg';
