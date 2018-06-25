@@ -3,12 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import TestIdea from './TestIdea/TestIdea.js';
 import data from './TestIdeas.json';
-
 import List from './List.js';
-import Checklist from './Checklist.js';
-import NavigationBar from './NavigationBar/NavigationBar.js';
-import PropTypes from 'prop-types';
-import print from './print.svg';
 
 
 class TestIdeasHome extends Component {
