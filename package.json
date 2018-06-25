@@ -4,7 +4,6 @@
   "homepage": "http://lanettecream.github.io/test-idea-generator",
   "private": false,
   "dependencies": {
-    "gh-pages": "^1.2.0",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-router-dom": "^4.3.1",
@@ -18,15 +17,17 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
+  "description": "An application to generate test ideas randomly, then print a list of the ideas you liked enough to save.",
   "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "gh-pages": "^1.2.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lanettecream/test-idea-generator.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Lanette Creamer",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/lanettecream/test-idea-generator/issues"
